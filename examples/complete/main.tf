@@ -63,6 +63,6 @@ module "example" {
   healthy_threshold         = 3
   unhealthy_threshold       = 3
   ecs_servers               = [
-    { id = alicloud_instance.default.id, name = alicloud_instance.default.instance_name, weight = 100 }
+    { id = alicloud_instance.default.id, name = alicloud_instance.default.instance_name, weight = 100, server_ip = alicloud_instance.default.private_ip }
   ]
 }

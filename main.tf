@@ -30,6 +30,7 @@ resource "alicloud_alb_server_group" "alb_server_group" {
     content {
       server_id   = servers.value["id"]
       port        = var.health_check_connect_port
+      server_ip   = servers.value["server_ip"]
       description = servers.value["name"]
       server_type = "Ecs"
       weight      = servers.value["weight"]

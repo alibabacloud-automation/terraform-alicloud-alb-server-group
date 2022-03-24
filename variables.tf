@@ -11,9 +11,10 @@ variable "alb_group_name" {
 
 variable "ecs_servers" {
   type = list(object({
-    id     = string
-    name   = string
-    weight = number
+    id        = string
+    name      = string
+    weight    = number
+    server_ip = string
   }))
   description = "Ecs servers which bind to alb group."
 }
