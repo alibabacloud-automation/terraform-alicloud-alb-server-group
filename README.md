@@ -1,3 +1,9 @@
+# Deprecated
+
+Thank you for your interest in Alibaba Cloud Terraform Module. This Module will be out of maintenance as of today and will be officially taken offline in the future. We recommend you to use [terraform-alicloud-alb](https://registry.terraform.io/modules/terraform-alicloud-modules/alb/alicloud/latest) as an alternative. More available Modules can be searched in [Alibaba Cloud Terraform Module](https://registry.terraform.io/browse/modules?provider=alibaba).
+
+Thank you again for your understanding and cooperation.
+
 Terraform module which creates ALB server group on Alibaba Cloud.
 
 terraform-alicloud-alb-server-group
